@@ -41,6 +41,8 @@ First we'll open the remote branch containing code from the previous lesson. The
 - Open a terminal in VS Code (`ctrl + backtick`)
 - Start the React Dev Server: `$ npm start`
 
+>Note: need to start over? Re-clone the project: https://github.com/michaelpetty/react-product-app
+
 ## Why use React Hooks?
 
 Fun fact: Hooks don't add any additional functionality to React applications.
