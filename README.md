@@ -128,9 +128,9 @@ export default ProductList
 ```
 ### Adding State Using `useState()`
 
-We use the `useState()` hook to add a piece of state to a function component.
+We use the `useState()` hook to insert a key into state and get a function to add a value to that key.
 
-We invoke `useState()` and can provide an initial optional value for the piece of state as an argument.
+`useState()` takes an optional inital value when invoked.
 
 `useState()` returns an array with two elements, the **value** and a **setter function** used to update the value.
 
@@ -208,7 +208,7 @@ export default ProductList
 #### Mini Lab
 Your turn! Update loadMore to change the value of maxDisplay in state when the button is clicked.
 
-1. Add new variables maxDisplay and setMaxDisplay to the returned values from useState() with default value from props.maxDisplay.
+1. Add new variables, maxDisplay and setMaxDisplay, by destrucuturing the returned values from a useState() call with a default value from props.maxDisplay.
 1. In loadMore uncomment the console.log and add a new line to use setMaxDisplay to increase the state value of maXDisplay by 3.
 
 *Open the react dev tools and select the ProductList component from the available components to see how the button updates the maxDisplay state!*
